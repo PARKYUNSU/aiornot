@@ -85,7 +85,41 @@
 
 
 ## 모델 결과
-
-
-
 ---
+### ROC (0.869)
+<img width="453" alt="스크린샷 2024-05-06 오후 3 04 13" src="https://github.com/PARKYUNSU/aiornot/assets/125172299/099dc5b7-d76c-4acd-9e72-e243ae1696ac">
+
+
+### Confusion Matrix
+
+|           | Precision | Recall  | F1-Score | Support |
+|-----------|-----------|---------|----------|---------|
+|     0     |   0.7414  |  0.5534 |   0.6338 |  19338  |
+|     1     |   0.7023  |  0.8451 |   0.7671 |  24104  |
+|-----------|-----------|---------|----------|---------|
+| **Accuracy** |           |         |   0.7153 |  43442  |
+| **Macro Avg** |   0.7218  |  0.6993 |   0.7004 |  43442  |
+|**Weighted Avg**|  0.7197  |  0.7153 |   0.7078 |  43442  |
+
+
+### 실제 이미지 결과 
+1로 시작하는 파일 : 실제 / 0으로 시작하는 파일 : AI
+
+| File Name | Image | Label | Prediction |
+|---|---|---|---|
+| 1-4 | <img src="https://github.com/PARKYUNSU/aiornot/assets/125172299/5aa74c71-8ea8-466a-ba6d-52652bafa015" width="100"> | Not AI | Not AI |
+| 0-222.jpeg |<img src= "https://github.com/PARKYUNSU/aiornot/assets/125172299/bb5becba-17b3-40b8-9f66-00e286cbb353" width="100">| AI | AI |
+| 0-777.jpg | <img src="https://github.com/PARKYUNSU/aiornot/assets/125172299/097f04f9-88e1-4cea-a421-d52d3dc5d1f4" width="100">| AI | AI |
+| 0-2.jpg | <img src="https://github.com/PARKYUNSU/aiornot/assets/125172299/d1fac5c3-4f6c-459d-b507-f01f9be5cbe5" width="100">| AI | AI |
+| 0-2323.jpg | <img src="https://github.com/PARKYUNSU/aiornot/assets/125172299/32f43e9c-6f5d-4eb6-b34d-bf773b793a1b" width="100">| AI | AI |
+| 0-7.jpeg | <img src="https://github.com/PARKYUNSU/aiornot/assets/125172299/35a0220f-2d23-4bbe-947c-6c569608a759" width="100">| AI | AI |
+| 0-231234.jpeg |<img src="https://github.com/PARKYUNSU/aiornot/assets/125172299/42031c80-5f96-4b95-ba8d-e92614f4d74f" width="100">| AI | Not AI |
+| 1-1.jpg | <img src="https://github.com/PARKYUNSU/aiornot/assets/125172299/6e06de63-fba1-474f-ad76-735b9846930b" width="100">| Not AI | Not AI |
+| 1-2.png | <img src="https://github.com/PARKYUNSU/aiornot/assets/125172299/a1efc742-772c-430c-9920-e89c559645e6" width="100">| Not AI | AI |
+| 1-3.jpg | <img src="https://github.com/PARKYUNSU/aiornot/assets/125172299/7f34acc9-6772-465f-8d48-856f6226fdb9" width="100">| Not AI | AI |
+| 0-211222.jpg | <img src="https://github.com/PARKYUNSU/aiornot/assets/125172299/ba43c0a2-e0fd-4b18-84fe-6e93065c2169" width="100">| AI | AI |
+| 0-23212.jpeg | <img src="https://github.com/PARKYUNSU/aiornot/assets/125172299/be1c46a3-e593-4d24-815a-cffe7c4c3071" width="100"> | Not AI | Not AI |
+| 0-123.jpg | <img src="https://github.com/PARKYUNSU/aiornot/assets/125172299/dfb8bbed-1c8c-4171-9263-45f7f17193a6" width="100"> | AI | AI |
+| 0-232.png | <img src="https://github.com/PARKYUNSU/aiornot/assets/125172299/e4406288-6a56-40ac-bf06-2c203aa0b3e4" width="100">| AI | AI |
+| 0-8.png | <img src="https://github.com/PARKYUNSU/aiornot/assets/125172299/3105184a-9246-423b-8a4b-7934e9d615a5" width="100">| AI | Not AI |
+| 0-1.jpeg | <img src="https://github.com/PARKYUNSU/aiornot/assets/125172299/1e581e3d-40e0-4724-8b12-03bfaadf9e2b" width="100"> | AI | AI |
