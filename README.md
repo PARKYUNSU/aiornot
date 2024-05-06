@@ -85,12 +85,17 @@
 
 
 ## 모델 결과
+
 ---
+
 ### ROC (0.869)
+
+
 <img width="453" alt="스크린샷 2024-05-06 오후 3 04 13" src="https://github.com/PARKYUNSU/aiornot/assets/125172299/099dc5b7-d76c-4acd-9e72-e243ae1696ac">
 
 
 ### Confusion Matrix
+
 
 |           | Precision | Recall  | F1-Score | Support |
 |-----------|-----------|---------|----------|---------|
@@ -104,6 +109,7 @@
 
 ### 실제 이미지 결과 
 1로 시작하는 파일 : 실제 / 0으로 시작하는 파일 : AI
+
 
 | File Name | Image | Label | Prediction |
 |---|---|---|---|
