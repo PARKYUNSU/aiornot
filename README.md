@@ -75,11 +75,11 @@
 | activation_5                  | (None, 256)          | 0        |
 | dropout_3                     | (None, 256)          | 0        |
 | reshape                       | (None, 1, 256)       | 0        |
-| conv1d                        | (None, 1, 512)       | 655,872  |
-| max_pooling1d                 | (None, 1, 512)       | 0        |
-| conv1d_1                      | (None, 1, 512)       | 1,311,232|
+| conv2d                        | (None, 1, 512)       | 655,872  |
+| max_pooling2d                 | (None, 1, 512)       | 0        |
+| conv2d_1                      | (None, 1, 512)       | 1,311,232|
 | max_pooling1d_1               | (None, 1, 512)       | 0        |
-| conv1d_2                      | (None, 1, 1024)      | 1,573,888|
+| conv2d_2                      | (None, 1, 1024)      | 1,573,888|
 | flatten_1                     | (None, 1024)         | 0        |
 | dense_1                       | (None, 1)            | 1,025    |
 
